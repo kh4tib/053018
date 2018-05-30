@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box; }
+
+.main {
+  width: 100%;
+  height: 100%;
+  background: #161616;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; }
+  .main__content {
+    width: 1080px;
+    height: 1080px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    transform: rotate(45deg); }
+    .main__content i {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .main__content i :nth-child(1) {
+        width: 8%;
+        height: 8%;
+        animation-delay: -0.25s;
+        background: #161616;
+        box-shadow: 4px 4px 24px black;
+        z-index: -1; }
+      .main__content i :nth-child(2) {
+        width: 16%;
+        height: 16%;
+        animation-delay: -0.5s;
+        background: #161616;
+        box-shadow: 4px 4px 24px black;
+        z-index: -2; }
+      .main__content i :nth-child(3) {
+        width: 24%;
+        height: 24%;
+        animation-delay: -0.75s;
+        background: #161616;
+        box-shadow: 4px 4px 24px black;
+        z-index: -3; }
+      .main__content i :nth-child(4) {
+        width: 32%;
+        height: 32%;
+        animation-delay: -1s;
+        background: #161616;
+        box-shadow: 4px 4px 24px black;
+        z-index: -4; }
+      .main__content i :nth-child(5) {
+        width: 40%;
+        height: 40%;
+        animation-delay: -1.25s;
+        background: #161616;
+        box-shadow: 4px 4px 24px black;
+        z-index: -5; }
+      .main__content i :nth-child(6) {
+        width: 48%;
+        height: 48%;
+        animation-delay: -1.5s;
+        background: #161616;
+        box-shadow: 4px 4px 24px black;
+        z-index: -6; }
+      .main__content i :nth-child(7) {
+        width: 56%;
+        height: 56%;
+        animation-delay: -1.75s;
+        background: #161616;
+        box-shadow: 4px 4px 24px black;
+        z-index: -7; }
+      .main__content i :nth-child(8) {
+        width: 64%;
+        height: 64%;
+        animation-delay: -2s;
+        background: #161616;
+        box-shadow: 4px 4px 24px black;
+        z-index: -8; }
+      .main__content i li {
+        list-style: none;
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        border: 1px solid slateblue;
+        animation: li-animation 4s ease-in-out forwards infinite; }
+@keyframes li-animation {
+  0%, 100% {
+    transform: scale(1.125) rotate(0deg); }
+  50% {
+    transform: scale(3) rotate(45deg); } }
+
+/*# sourceMappingURL=style.css.map */
